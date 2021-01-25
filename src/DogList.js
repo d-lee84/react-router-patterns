@@ -7,6 +7,8 @@ import {Link} from "react-router-dom";
  *  - dogs: Array of dog objects
  *    [{name, age, src, facts}, ...]
  *      Where facts = ["fact1", ...]
+ * 
+ * App -> DogList
  */
 
 function DogList({dogs}) {
